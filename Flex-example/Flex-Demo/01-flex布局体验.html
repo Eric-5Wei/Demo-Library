@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex布局体验</title>
+
+    <style>
+        div {
+            width: 80%;
+            height: 300px;
+            background-color: blueviolet;
+            /*使用flex布局*/
+            display: flex;
+            justify-content: space-around;
+        }
+
+        div span {
+            height: 100px;
+            background-color: aqua;
+            margin: 5px;
+            flex: 1;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+    </div>
+</body>
+</html>

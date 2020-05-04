@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex设置侧轴上的子元素排列方式</title>
+
+    <style>
+        div {
+            display: flex;
+            width: 600px;
+            height: 400px;
+            background-color: blueviolet;
+            /* 默认的主轴是x轴row */
+            justify-content: center;
+            /* 我们需要一个侧轴居中 */
+            align-items: center;
+        }
+
+        div span {
+            width: 150px;
+            height: 100px;
+            background-color: aqua;
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+    </div>
+</body>
+</html>
